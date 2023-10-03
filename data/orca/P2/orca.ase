@@ -1,0 +1,6 @@
+dict(charge=0,
+     maxiter=600,
+     mult=1,
+     orcablocks='%scf maxiter 600 end \n%maxcore 1000 \n%pal nprocs 20 end',
+     orcasimpleinput='RIJCOSX PBE0 def2-SVP def2/J TightOpt Freq',
+     task='gradient')
